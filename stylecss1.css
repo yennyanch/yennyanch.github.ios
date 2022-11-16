@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+ }
+ a {
+	color: inherit;
+	text-decoration: none;
+ }
+ .medsos {
+	padding: 5px 0;
+	background-color: #9E7676;
+ }
+ .medsos ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+ }
+ .container {
+	width: 80%;
+	margin: 0 auto;
+	font-family: cursive;
+ }
+ .container:after {
+	content: '';
+	display: block;
+	clear: both;
+ }
+ header h1 {
+	float: left;
+	padding: 15px 0;
+	color: #9E7676;
+ }
+ header ul {
+	float: right;
+ }
+ header ul li {
+	display: inline-block;
+ }
+ header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+ }
+ header ul li a:hover {
+	background-color: #E1A89C;
+	color: white !important;
+ }
+ .active {
+	background-color: #9E7676;
+	color: white;
+ }
+.banner {
+	height: 60vh;
+	background-image: url(https://images.everydayhealth.com/images/what-are-natural-skin-care-products-alt-1440x810.jpg);
+	background-size: cover;	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 248, 234, .7);
+}
+.banner h2 {
+	color: #594545;
+	z-index: 2;
+	padding: 20px 25px;
+	border: 4px solid #9E7676;
+	text-align: center;
+}
+section {
+	padding: 50px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #815B5B;
+}
+.about p {
+	color:  #594545;
+	word-spacing: normal ;
+	text-align: center;
+}
+footer {
+	padding: 30px 0;
+	background-color: #9E7676;
+	color: #FFF8EA;
+	text-align: center;
+}
+label #btn,
+label #close {
+	color: black;
+	font-size: 30px;
+	float: right;
+	margin-left: 40px;
+	line-height: 80px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+@media (max-width: 992px) {
+	label #btn {
+		display: block;
+	}
+
+	ul {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		margin-right: 0;
+		top: 80px;
+		background-color: white;
+		text-align: unset;
+	}
+
+	ul li {
+		display: block;
+		line-height: 10px;
+		margin: 50px 0;
+	}
+	#check:checked - ul {
+		right: 0;
+	}
+	#check:checked - label #btn {
+		display: none;
+	}
+	#check:checked - label #close {
+		display: block;
+	}
+}
+ul.a {
+	background-color: #F3E9DD;
+	color: #DAB88B;
+}
+h3 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #9E7676;
+	font-display: block;
+	font-variant: inherit;
+    font-size: 23px;
+}
+
+img {
+    position: relative;
+}
+
+p {
+    font-family: garamond;
+    color: #815B5B;
+    background-color: #FFF8EA;
+	text-align: left;
+	font-size: 17px;
+}
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #9F8772;
+	font-display: block;
+	font-variant: inherit;
+    font-size: medium; 
+}
+.h2 {
+	text-align: center;
+	color: #815B5B;
+}
